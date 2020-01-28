@@ -1,0 +1,21 @@
+.MenuViewHeader {
+  position: relative;
+  padding: 1em 10em;
+  border-bottom: 1px solid #949494;
+  -webkit-box-shadow: 1px 1px 2px #6d6d6d;
+          box-shadow: 1px 1px 2px #6d6d6d;
+  line-height: 1.4em;
+}
+
+.MenuViewHeader__img-placeholder {
+  position: absolute;
+  right: 10em;
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background: lightgrey;
+}
+/*# sourceMappingURL=MenuViewHeader.css.map */

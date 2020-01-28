@@ -1,26 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import DATA from './data/data'
+import './App.css'
+import MenuView from './Components/MenuView/MenuView'
 
-function App() {
+function App () {
+  const restaurantData = DATA[0].brands[0]
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <MenuView restaurantData={restaurantData} />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

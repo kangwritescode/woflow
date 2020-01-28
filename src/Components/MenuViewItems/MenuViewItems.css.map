@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACX,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,GAAG;EACf,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,IAAI;CAQlB;;AAbD,AAOI,cAPU,CAOV,MAAM,CAAC;EACH,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;CACjC",
+    "sources": [
+        "MenuViewItems.scss"
+    ],
+    "names": [],
+    "file": "MenuViewItems.css"
+}

@@ -1,0 +1,14 @@
+.MenuViewItems {
+    position: relative;
+    margin: auto;
+    margin-top: 3em;
+    width: 50%;
+    min-width: 25em;
+
+    header {
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
