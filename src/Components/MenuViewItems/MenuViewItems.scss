@@ -6,6 +6,10 @@
     min-width: 25em;
     margin-bottom: 10em;
 
+    &__showing-items {
+        color: grey;
+    }
+
     header {
         color: black;
         display: flex;

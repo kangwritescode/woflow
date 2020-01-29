@@ -6,8 +6,8 @@ const MenuViewItems = ({ categoryName, items }) => {
   return (
     <div className={`MenuViewItems`}>
       <header>
-        <h3>{categoryName}</h3>
-        <label>Showing {items.length} items</label>
+        <h2>{categoryName}</h2>
+        <label className='MenuViewItems__showing-items'>Showing {items.length} items</label>
       </header>
       {items.map(item => {
         return <MenuViewItem key={item.title} item={item} />

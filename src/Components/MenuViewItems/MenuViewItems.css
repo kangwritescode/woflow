@@ -7,6 +7,10 @@
   margin-bottom: 10em;
 }
 
+.MenuViewItems__showing-items {
+  color: grey;
+}
+
 .MenuViewItems header {
   color: black;
   display: -webkit-box;
